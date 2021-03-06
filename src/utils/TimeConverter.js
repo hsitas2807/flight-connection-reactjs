@@ -1,4 +1,9 @@
-
+/**
+ * Convert UNix Time into date,month,year,hour,min,sec
+ * 
+ * @param {
+ * } unixTime 
+ */
 export const TimeConverter = ({ unixTime }) => {
   var createDate = new Date(unixTime * 1000);
   var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

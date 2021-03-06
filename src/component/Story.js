@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import { getStory } from "../services/API";
 import { convertUNixTimeToDate, TimeConverter } from "../utils/TimeConverter";
 
+/**
+ * Call  Stories API and get story details
+ * @param {
+ * } param0 
+ */
 export const Story = ({ storyId }) => {
   const [story, setStory] = useState({});
 
