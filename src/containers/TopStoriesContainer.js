@@ -3,7 +3,7 @@ import { getTopStoriesIds } from '../services/API';
 import { Story } from '../component/Story';
 import {infiniteScroll  } from "../hook/InfiniteScroll";
 
-export const StoriesContainer = () => {
+export const TopStoriesContainer = () => {
   const { count } = infiniteScroll();
   const [storyIds, setStoryIds] = useState([]);
 
